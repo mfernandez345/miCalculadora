@@ -1,0 +1,29 @@
+name: Ejecutar tests de la calculadora
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout del repositorio
+        uses: actions/checkout@v3
+
+      - name: Configurar Java
+        uses: actions/setup-java@v3
+        with:
+          distribution: 'temurin'
+          java-version: '17'
+
+      - name: Compilar y ejecutar tests
+        run: |
+          mkdir -p out
+          javac -d out src/miCalculadora/*.java test/*.java
+          java -jar junit-platform-console-standalone-1.10.0.jar \
+            --class-path out \
+            --scan-class-path
