@@ -132,6 +132,7 @@ public class Main extends Application {
     }
 
     public static void main(String[] args) {
+        //commit firmado como mfernandez345
         System.out.println("Probando CI desde main()");
         launch();
     }
