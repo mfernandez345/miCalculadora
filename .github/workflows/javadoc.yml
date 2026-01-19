@@ -18,11 +18,17 @@ jobs:
           distribution: temurin
           java-version: 21
 
+      - name: Descargar JavaFX 21
+        run: |
+          wget https://download2.gluonhq.com/openjfx/21.0.1/openjfx-21.0.1_linux-x64_bin-sdk.zip
+          unzip openjfx-21.0.1_linux-x64_bin-sdk.zip
+          mv javafx-sdk-21.0.1 javafx-sdk
+
       - name: Generar JavaDoc
         run: |
           mkdir -p javadoc
           javadoc \
-            --module-path /usr/share/openjfx/lib \
+            --module-path javafx-sdk/lib \
             --add-modules javafx.controls,javafx.fxml \
             -d javadoc \
             $(find src -name "*.java")
