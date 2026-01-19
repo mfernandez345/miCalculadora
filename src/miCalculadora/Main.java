@@ -8,8 +8,25 @@ import javafx.scene.control.TextField;
 import javafx.scene.layout.GridPane;
 import javafx.stage.Stage;
 
+/**
+ * <p><strong>Definición: </strong>
+ * Clase principal de la aplicación JavaFX de la calculadora.
+ * Se encarga de construir la interfaz gráfica (botones, display y distribución en cuadrícula),
+ * aplicar la hoja de estilos y mostrar la ventana principal.
+ * No implementa la lógica de cálculo: únicamente define la estructura visual de la aplicación.</p>
+ *
+ * <p><strong>Autora: </strong>María Inés Fernández Álvarez.</p>
+ */
 public class Main extends Application {
 
+    /**
+     * Método de entrada de la aplicación JavaFX.
+     * Construye toda la interfaz gráfica de la calculadora: crea el panel principal,
+     * configura el display, genera los botones numéricos y de operación, aplica estilos
+     * y muestra la ventana principal.
+     *
+     * @param stage la ventana primaria proporcionada por el entorno JavaFX
+     */
     @Override
     public void start(Stage stage) {
 
@@ -131,6 +148,13 @@ public class Main extends Application {
         stage.show();
     }
 
+    /**
+     * Punto de entrada estándar de la aplicación.
+     * Imprime un mensaje de prueba para verificar la integración continua
+     * y delega en JavaFX el arranque de la interfaz gráfica mediante {@code launch()}.
+     *
+     * @param args argumentos de línea de comandos (no utilizados)
+     */
     public static void main(String[] args) {
         System.out.println("Probando CI desde main()");
         launch();
