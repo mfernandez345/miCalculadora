@@ -58,3 +58,9 @@ $RECYCLE.BIN/
 # Accesos directos
 *.lnk
 
+# ============================
+#   CARPETAS LOCALES A IGNORAR
+# ============================
+
+docs/
+lib/
