@@ -73,7 +73,7 @@ public class Main extends Application {
         Button btn4 = new Button("4");
         Button btn5 = new Button("5");
         Button btn6 = new Button("6");
-        Button btnMas = new Button("＋");
+        Button btnMas = new Button("+");
 
         btn4.setPrefSize(w, h);
         btn5.setPrefSize(w, h);
