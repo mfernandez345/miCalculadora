@@ -26,14 +26,15 @@ jobs:
           unzip openjfx-21.0.1_linux-x64_bin-sdk.zip
           mv javafx-sdk-21.0.1 javafx-sdk
 
-      - name: Generar JavaDoc
+      - name: Generar JavaDoc (main + test)
         run: |
           mkdir -p javadoc
           javadoc \
             --module-path javafx-sdk/lib \
             --add-modules javafx.controls,javafx.fxml \
             -d javadoc \
-            $(find src -name "*.java")
+            $(find src -name "*.java") \
+            $(find test -name "*.java")
 
       - name: Publicar en GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
