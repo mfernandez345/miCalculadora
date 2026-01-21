@@ -98,7 +98,7 @@ Proyecto realizado por el grupo de prácticas N02:
 
 - **María Asunción Fas Vicent**: Functional Analyst.
 - **María Inés Fernández Álvarez**: Software Developer.
-- **Carlos Isidro Fenández Carbonell**: Product Owner.
+- **Carlos Isidro Fernández Carbonell**: Product Owner.
 - **Jorge Enrique Fungueiro Rodríguez**: Scrum Master.
 - **Sergio Pérez González**: QA Tester.
 
