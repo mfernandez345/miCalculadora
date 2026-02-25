@@ -67,7 +67,7 @@ Las pruebas cubren:
 
 La documentación completa del proyecto (incluyendo los tests) está disponible en:
 
-👉 **https://inesdev-org.github.io/miCalculadora/**
+👉 **https://potential-adventure-6l1yev6.pages.github.io/**
 
 
 ---
@@ -94,13 +94,9 @@ La documentación completa del proyecto (incluyendo los tests) está disponible 
 
 ## 🧑‍💻 Autores y Roles
 
-Proyecto realizado por el grupo de prácticas N02:
+Proyecto realizado por:
 
-- **María Asunción Fas Vicent**: Functional Analyst.
 - **María Inés Fernández Álvarez**: Software Developer.
-- **Carlos Isidro Fernández Carbonell**: Product Owner.
-- **Jorge Enrique Fungueiro Rodríguez**: Scrum Master.
-- **Sergio Pérez González**: QA Tester.
 
 
 ---
