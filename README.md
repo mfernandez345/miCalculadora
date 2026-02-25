@@ -67,7 +67,7 @@ Las pruebas cubren:
 
 La documentación completa del proyecto (incluyendo los tests) está disponible en:
 
-👉 **https://potential-adventure-6l1yev6.pages.github.io/**
+👉 *https://mfernandez345.github.io/miCalculadora//**
 
 
 ---
