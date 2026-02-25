@@ -67,7 +67,7 @@ Las pruebas cubren:
 
 La documentación completa del proyecto (incluyendo los tests) está disponible en:
 
-👉 *https://mfernandez345.github.io/miCalculadora//**
+👉 *https://mfernandez345.github.io/miCalculadora/**
 
 
 ---
